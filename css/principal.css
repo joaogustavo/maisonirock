@@ -1,0 +1,542 @@
+@charset "utf-8";
+/* CSS Document */
+/* redefinicao da template */
+.menu-movel li:first-child a {
+	background: #ffffff;
+	color: #8c8470;
+	text-decoration: line-through;
+}
+.titulos, .conteudos-navegacao {
+	display: none;
+	visibility: hidden;
+}
+.conteudos {
+	padding-left: 0;
+	padding-right: 0;
+	padding-top: 3.5%;
+}
+/* banners */
+.banners {
+	display: block;
+	visibility: visible;
+}
+/* RELATIVO A VERSAO MAXIMA DE 767px */
+@media screen and (max-width: 767px) {
+.banners {
+	margin-top: 5%;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 600px */
+@media screen and (max-width: 600px) {
+.banners {
+	margin-top: 10%;
+}
+}
+/* buffet */
+.buffet {
+	background: url(../img/home-divisao-vertical.jpg) no-repeat 97.4% 66px;
+	display: inline-block;
+	float: left;
+	margin-bottom: 27px;
+	max-width: 493px;
+	padding-left: 2.494%;
+	width: 45.4%;
+}
+/* RELATIVO A VERSAO MAXIMA DE 1186px */
+@media screen and (max-width: 1186px) {
+.buffet {
+	background: url(../img/home-divisao-vertical.jpg) no-repeat 100% 66px;
+	padding-left: 2%;
+	width: 43%;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 1168px */
+@media screen and (max-width: 1168px) {
+.buffet {
+	width: 43%;
+}
+}
+
+.buffet-cabecalho {
+	background: url(../img/home-titulos-fundo.png) no-repeat left bottom;
+	background-size: 50% auto;
+	color: #948059;
+	display: block;
+	font-family: 'latohairline';
+	font-size: 2.2em;
+	font-weight: bolder;
+	height: 66px;
+	margin-bottom: 30px;
+	text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.067);
+	text-transform: uppercase;
+	width: 100%;
+}
+/* RELATIVO A VERSAO MAXIMA DE 767px */
+@media screen and (max-width: 767px) {
+.buffet-cabecalho {
+	font-size: 1.2em;
+	height: 1.8em;
+}
+}
+
+.buffet-fotos-container {
+	margin-bottom: 27px;
+	width: 100%;
+}
+.buffet-foto {
+	border: solid 2px #ffffff;
+	box-shadow: 0.5px 0.866px 1px 0px rgba(0, 0, 0, 0.137);
+}
+.buffet-foto:first-child,.buffet-foto:nth-child(2) {
+	margin-bottom: 11px;
+}
+.buffet-foto:first-child, .buffet-foto:nth-child(3) {
+	margin-right: 16px;
+}
+.buffet-subtitulo {
+	color: #948059;
+	display: block;
+	font-family: 'latolight';
+	font-size: 1.2em;
+	margin: 0 auto;
+	padding-right: 5%;
+	text-align: center;
+	text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.067);
+	width: 95%;
+}
+/* RELATIVO A VERSAO MAXIMA DE 1124px */
+@media screen and (max-width: 1124px) {
+.buffet-foto {
+	width: 45%;
+}
+.buffet-foto img {
+	width: 100%;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 895px */
+@media screen and (max-width: 895px) {
+.buffet {
+	background: none;
+	border-bottom: solid 1px #6d5a36;
+	display: block;
+	float: none;
+	margin: 0 auto 15px auto;
+	padding-bottom: 15px;
+	width: 100%;
+}
+}
+
+
+/* orcamento aluguel */
+.orcamento {
+	display: inline-block;
+	float: left;
+	margin-bottom: 27px;
+	max-width: 649px;
+	width: 56.1%;
+}
+.orcamento-fundo-noiva {
+	display: inline-block;
+	float: left;
+	margin-right: 7px;
+	margin-top: 54px;
+	max-width: 202px;
+}
+.orcamento-cabecalho {
+	background: url(../img/home-titulos-fundo.png) no-repeat left bottom;
+	background-size: 50% auto;
+	color: #948059;
+	display: inline-block;
+	float: left;
+	font-family: 'latohairline';
+	font-size: 2.2em;
+	font-weight: bolder;
+	height: 66px;
+	margin-bottom: 30px;
+	max-width: 400px;
+	text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.067);
+	text-transform: uppercase;
+	width: 100%;
+}
+.orcamento-cabecalho span {
+	font-size: 0.35em;
+}
+/* RELATIVO A VERSAO MAXIMA DE 767px */
+@media screen and (max-width: 767px) {
+.orcamento-cabecalho {
+	font-size: 1.2em;
+	height: 2em;
+}
+.orcamento-cabecalho span {
+	font-size: 0.65em;
+}
+}
+
+.orcamento-fotos-container {
+	display: block;
+	float: left;
+	margin-bottom: 15px;
+	max-width: 400px;
+	width: 100%;
+}
+.orcamento-foto {
+	border: solid 6px #cac3ba;
+	box-shadow: 1px 1.732px 2px 0px rgba(0, 0, 0, 0.227);
+}
+.orcamento-foto+.orcamento-foto {
+	margin-left: 22px;
+}
+.orcamento-subtitulo {
+	color: #6d5a36;
+	display: block;
+	font-family: 'latolight';
+	font-size: 0.9em;
+	line-height: 1.3em;
+	width: 100%;
+}
+.orcamento-botao {
+	border: solid 3px #8c836f;
+	box-shadow: 0.5px 0.866px 1px 0px rgba(0, 0, 0, 0.067);
+	color: #948059;
+	display: block;
+	font-family: 'latolight';
+	font-size: 1.35em;
+	margin: 0 auto;
+	margin-left: 50%;
+	max-width: 253px;
+	padding: 2.383% 1.51%;
+	text-align: center;
+	text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.067);
+	width: 60%;
+}
+/* RELATIVO A VERSAO MAXIMA DE 1999px */
+@media screen and (max-width: 1999px) {
+.orcamento-botao {
+	margin-top: 2%;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 1168px */
+@media screen and (max-width: 1168px) {
+.orcamento {
+	width: 56.1%;
+}
+.orcamento-cabecalho, .orcamento-fotos-container {
+	width: 65%;
+}
+.orcamento-foto+.orcamento-foto {
+	margin-left: 2%;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 1146px */
+@media screen and (max-width: 1146px) {
+.orcamento {
+	width: 56.1%;
+}
+.orcamento-cabecalho, .orcamento-fotos-container {
+	width: 63%;
+}
+.orcamento-foto {
+	width: 40%;
+}
+.orcamento-foto img {
+	width: 100%;
+}
+.orcamento-foto+.orcamento-foto {
+	margin-left: 2%;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 1084px */
+@media screen and (max-width: 1084px) {
+.orcamento-cabecalho, .orcamento-fotos-container {
+	width: 60%;
+}
+.orcamento-foto+.orcamento-foto {
+	margin-left: 2%;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 1004px */
+@media screen and (max-width: 1004px) {
+.orcamento-cabecalho span {
+	clear: left;
+	display: block;
+	margin-top: -7px;
+}
+.orcamento-cabecalho, .orcamento-fotos-container {
+	width: 55%;
+}
+.orcamento-foto+.orcamento-foto {
+	margin-left: 2%;
+}
+}
+
+.orcamento-botao:hover {
+	color: #948059;
+	text-decoration: none;
+}
+/* RELATIVO A VERSAO MAXIMA DE 895px */
+@media screen and (max-width: 895px) {
+.orcamento {
+	background: none;
+	border-bottom: solid 1px #6d5a36;
+	clear: both;
+	display: block;
+	float: none !important;
+	height: 470px;
+	margin: 0 auto 15px auto;
+	padding-bottom: 15px;
+	width: 100%;
+}
+.orcamento-cabecalho, .orcamento-fotos-container {
+	width: 100%;
+}
+.orcamento-foto+.orcamento-foto {
+	margin-left: 5%;
+}
+.orcamento-subtitulo {
+	float: right;
+	margin-right: 7%;
+	width: 60%;
+}
+.orcamento-botao {
+	float: none;
+	margin-left: 25%;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 688px */
+@media screen and (max-width: 688px) {
+.orcamento-subtitulo {
+	float: right;
+	margin-right: 7%;
+	width: 55%;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 662px */
+@media screen and (max-width: 662px) {
+.orcamento-cabecalho, .orcamento-fotos-container {
+	width: 60%;
+}
+.orcamento-foto+.orcamento-foto {
+	margin-left: 5%;
+}
+.orcamento-botao {
+	font-size: 1em;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 600px */
+@media screen and (max-width: 600px) {
+.orcamento-subtitulo {
+	float: right;
+	margin-right: 7%;
+	width: 50%;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 571px */
+@media screen and (max-width: 571px) {
+.orcamento-cabecalho, .orcamento-fotos-container {
+	width: 45%;
+}
+.orcamento-foto {
+	width: 48%;
+}
+.orcamento-foto+.orcamento-foto {
+	margin-left: 2%;
+}
+.orcamento-botao {
+	margin-top: 30px;
+	margin-left: 15%;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 532px */
+@media screen and (max-width: 532px) {
+.orcamento-subtitulo {
+	float: right;
+	margin-right: 7%;
+	width: 45%;
+}
+.orcamento-botao {
+	font-size: 0.9em;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 482px */
+@media screen and (max-width: 482px) {
+.orcamento-foto {
+	width: 40%;
+}
+.orcamento-foto img {
+	width: 100%;
+}
+.orcamento-foto+.orcamento-foto {
+	margin-left: 2%;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 478px */
+@media screen and (max-width: 478px) {
+.orcamento-subtitulo {
+	float: right;
+	margin-right: 7%;
+	width: 40%;
+}
+.orcamento-botao {
+	font-size: 0.9em;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 435px */
+@media screen and (max-width: 435px) {
+.orcamento-subtitulo {
+	float: right;
+	margin-right: 7%;
+	position: relative;
+	width: 35%;
+}
+.orcamento-botao {
+	bottom: -4em;
+	font-size: 1em;
+	left: -2em;
+	position: absolute;
+	width: 100%;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 420px */
+@media screen and (max-width: 420px) {
+.orcamento {
+	height: 400px;
+}
+.orcamento-fundo-noiva {
+	display: none;
+	visibility: hidden;
+}
+.orcamento-cabecalho, .orcamento-fotos-container, .orcamento-subtitulo {
+	display: block;
+	float: none;
+	text-align: center;
+	width: 100%;
+}
+.orcamento-cabecalho {
+	padding-left: 2%;
+	text-align: left;
+}
+.orcamento-botao {
+	bottom: -1em;
+	float: none;
+	font-size: 1em;
+	left: auto;
+	margin: 0 auto;
+	position: relative;
+	width: 90%;
+}
+}
+/* instagram */
+.instagram {
+	display: inline-block;
+	float: left;
+	max-width: 542px;
+	padding-left: 2.494%;
+	width: 48%;
+}
+.instagram-cabecalho {
+	margin-bottom: 15px;
+}
+.instagram-cabecalho img {
+	max-width: 137px;
+}
+/* facebook */
+.facebook {
+	display: inline-block;
+	float: left;
+	max-width: 600px;
+	width: 49%;
+}
+#facebook {
+	max-width:580px;
+}
+/* RELATIVO A VERSAO MAXIMA DE 1009px */
+@media screen and (max-width: 1009px) {
+.instagram, .facebook {
+	display: block;
+	float: none;
+	margin: 0 auto;
+	width: 100%;
+}
+.facebook {
+	border-top: solid 1px #948059;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 596px */
+@media screen and (max-width: 596px) {
+.facebook {
+	border-bottom: solid 1px #948059;
+	margin-bottom: 15px;
+}
+}
+
+/* mapa */
+.mapa {
+	border-bottom: solid 1px #9e8250;
+	border-top: solid 1px #9e8250;
+	display: block;
+	float: left;
+	height: 370px;
+	margin-bottom: 21px;
+	position: relative;
+	width: 100%;
+	z-index: 2;
+}
+.mapa-cabecalho-fundo {
+	display: block;
+	left: 0px;
+	position: absolute;
+	top: -1px;
+	width: 100%;
+	z-index: 2;
+}
+.mapa-cabecalho {
+	margin: 0 auto;
+	max-width: 427px;
+	position: relative;
+	text-align: center;
+	width: 100%;
+	z-index: 3;
+}
+.mapa-cabecalho div {
+	color: #948059;
+	font-family: 'latolight';
+	font-size: 2.4em;
+	padding-top: 2.045%;
+	position: relative;
+	text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.067);
+	width: 100%;
+	z-index: 3;
+}
+/* RELATIVO A VERSAO MAXIMA DE 438px */
+@media screen and (max-width: 438px) {
+.mapa-cabecalho div {
+	padding-top: .2%;
+}
+}
+/* RELATIVO A VERSAO MAXIMA DE 380px */
+@media screen and (max-width: 380px) {
+.mapa-cabecalho div {
+	line-height: -1em;
+}
+}
+
+.mapa-icone {
+	max-width: 22px;
+}
+#mapa {
+	display: block;
+	height: 99%;
+	left: 0px;
+	margin-bottom: 2px;
+	position: absolute;
+	top: 1px;
+	width: 100%;
+	z-index: 2;
+}
+/* RELATIVO A VERSAO MAXIMA DE 580px */
+@media screen and (max-width: 580px) {
+#mapa {
+	height: 90%;
+	margin-top: 10%;
+}
+}
